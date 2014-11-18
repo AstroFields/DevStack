@@ -1,0 +1,74 @@
+{
+	"name":         "astrofields/devstack",
+	"description":  "AstroFields development stack",
+	"authors":      [
+		{
+			"name":     "Franz Josef Kaiser",
+			"email":    "wecodemore@gmail.com",
+			"homepage": "http://unserkaiser.com/",
+			"role":     "Lead Developer"
+		}
+	],
+	"type":         "project",
+	"repositories": [
+		{
+			"type": "composer",
+			"url":  "http://wpackagist.org"
+		},
+		{
+			"type": "composer",
+			"url":  "http://rarst.net"
+		}
+	],
+	"config":       {
+		"bin-dir":    "bin",
+		"vendor-dir": "wp-content/vendor"
+	},
+	"require":      {
+		"php":                                ">=5.4",
+		"johnpbloch/wordpress":               ">=3.9",
+		"wpackagist-plugin/wp-super-cache":   "*",
+		"vlucas/phpdotenv":                   "*",
+		"wp-cli/wp-cli":                      "*",
+		"psy/psysh":                          "*",
+		"wecodemore/wp-cli-composer":         "*",
+		"wecodemore/wp-composer-config":      "*",
+		"wecodemore/astrofields-options":     "*",
+		"wecodemore/astrofields-core":        "*",
+		"wecodemore/astrofields-standards":   "*",
+		"wecodemore/astrofields-security":    "*",
+		"wecodemore/astrofields-settings":    "*",
+		"wecodemore/astrofields-usermeta":    "*",
+		"wecodemore/astrofields-postmeta":    "*",
+		"wecodemore/astrofields-public-form": "*",
+		"wecodemore/astrofields-html5":       "*",
+		"wecodemore/astrofields-comments":    "*"
+	},
+	"require-dev":  {
+		"rarst/toolbar-theme-switcher":                 "~1.2",
+		"wpackagist-plugin/a-fresher-cache":            "*",
+		"wpackagist-plugin/core-control":               "*",
+		"wpackagist-plugin/monster-widget":             "*",
+		"wpackagist-plugin/theme-check":                "*",
+		"wpackagist-plugin/user-switching":             "*",
+		"wpackagist-plugin/wcm-user-language-switcher": "*",
+		"wecodemore/astroexamples-usermeta":            "*",
+		"wecodemore/astroexamples-metabox":             "*",
+		"wecodemore/astroexamples-settings-section":    "*",
+		"wecodemore/astroexamples-comments":            "*"
+	},
+	"minimum-stability": "dev",
+	"scripts":      {
+		"wp-config": [
+			"WCM\\WPComposerConfig\\WPConfigCommand::postPackageInstall"
+		],
+		"wp-cli-bash" : [
+			"WCM\\WPCLIComposer\\WPCLICommand::postPackageInstall"
+		]
+	},
+	"extra":        {
+		"wordpress-install-dir": "wp",
+		"wordpress-env-dir":     "",
+		"bash-profile-dir":      "puphpet/files/dot"
+	}
+}
