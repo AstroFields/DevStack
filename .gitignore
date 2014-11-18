@@ -1,0 +1,22 @@
+# IDEs
+/.idea/
+
+# Vagrant
+/.vagrant/
+/default/
+/html/
+/wp/
+/wp-content/
+/bin/
+
+# Composer lock not necessary, let everyone pull latest
+composer.lock
+
+# env / Config
+.env
+!.env.example
+
+# Defaults
+!.gitkeep
+!composer.json
+!Vagrantfile
