@@ -1,6 +1,15 @@
 {
 	"name":         "wecodemore/astrofields-devstack",
 	"description":  "AstroFields development stack",
+	"version":      "0.1.0",
+	"license":      "MIT",
+	"homepage":     "https://github.com/AstroFields/DevStack",
+	"keywords":     [
+		"wordpress", "forms", "fields", "astrofields",
+		"virtual machine", "vm", "vagrant", "puppet", "puphpet"
+
+	],
+	"type":         "project",
 	"authors":      [
 		{
 			"name":     "Franz Josef Kaiser",
@@ -9,7 +18,9 @@
 			"role":     "Lead Developer"
 		}
 	],
-	"type":         "project",
+	"support"     : {
+		"issues" : "https://github.com/AstroFields/DevStack/issues"
+	},
 	"repositories": [
 		{
 			"type": "composer",
@@ -33,15 +44,15 @@
 		"psy/psysh":                          "*",
 		"wecodemore/wp-cli-composer":         "*",
 		"wecodemore/wp-composer-config":      "*",
-		"wecodemore/astrofields-options":     "*",
 		"wecodemore/astrofields-core":        "*",
 		"wecodemore/astrofields-standards":   "*",
 		"wecodemore/astrofields-security":    "*",
-		"wecodemore/astrofields-settings":    "*",
-		"wecodemore/astrofields-usermeta":    "*",
-		"wecodemore/astrofields-postmeta":    "*",
-		"wecodemore/astrofields-public-form": "*",
 		"wecodemore/astrofields-html5":       "*",
+		"wecodemore/astrofields-postmeta":    "*",
+		"wecodemore/astrofields-usermeta":    "*",
+		"wecodemore/astrofields-options":     "*",
+		"wecodemore/astrofields-settings":    "*",
+		"wecodemore/astrofields-public-form": "*",
 		"wecodemore/astrofields-comments":    "*"
 	},
 	"require-dev":  {
