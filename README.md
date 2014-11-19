@@ -1,10 +1,10 @@
 # AstroFields Development box
 
-[![GitTip to support us](//img.shields.io/gratipay/wecodemore.svg)](//gratipay.com/wecodemore/)
-[![Latest Stable Version](//poser.pugx.org/wecodemore/astrofields-devstack/v/stable.svg)](//packagist.org/packages/wecodemore/astrofields-devstack)
-[![Total Downloads](//poser.pugx.org/wecodemore/astrofields-devstack/downloads.svg)](//packagist.org/packages/wecodemore/astrofields-devstack)
-[![Latest Unstable Version](//poser.pugx.org/wecodemore/astrofields-devstack/v/unstable.svg)](//packagist.org/packages/wecodemore/astrofields-devstack)
-[![License](//poser.pugx.org/wecodemore/astrofields-devstack/license.svg)](//packagist.org/packages/wecodemore/astrofields-devstack)
+[![GitTip to support us](https://img.shields.io/gratipay/wecodemore.svg)](//gratipay.com/wecodemore/)
+[![Latest Stable Version](https://poser.pugx.org/wecodemore/astrofields-devstack/v/stable.svg)](//packagist.org/packages/wecodemore/astrofields-devstack)
+[![Total Downloads](https://poser.pugx.org/wecodemore/astrofields-devstack/downloads.svg)](//packagist.org/packages/wecodemore/astrofields-devstack)
+[![Latest Unstable Version](https://poser.pugx.org/wecodemore/astrofields-devstack/v/unstable.svg)](//packagist.org/packages/wecodemore/astrofields-devstack)
+[![License](https://poser.pugx.org/wecodemore/astrofields-devstack/license.svg)](//packagist.org/packages/wecodemore/astrofields-devstack)
 
 The basic development box for the AstroFields libraries and plugins.
 
