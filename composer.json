@@ -57,6 +57,7 @@
 	},
 	"require-dev":  {
 		"rarst/toolbar-theme-switcher":                 "~1.2",
+		"wpackagist-theme/twentythirteen":              "*",
 		"wpackagist-plugin/a-fresher-cache":            "*",
 		"wpackagist-plugin/core-control":               "*",
 		"wpackagist-plugin/monster-widget":             "*",

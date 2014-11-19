@@ -33,6 +33,24 @@ Add a `wp-config.php` - follow the setup steps in the CLI
 Add an `.env` file by copying and renaming the `.env.example` file to `.env`. Change all
 your WordPress config settings _only_ there.
 
+## Access
+
+Open your browser and go to
+
+	http://astro.dev
+
+## Defaults
+
+The WordPress defaults are all set in the `.evn.example` file. Change what you need to quickly
+reproduce different setups during testing. Removing the value and the `=` from a value will
+_omit_ setting it and therefore fall back to WordPress internal default.
+
+The default theme is TwentyThirteen (because I think TwentyFourteen is quite ugly). It is
+installed as `wpackagist-theme` via Composer. To change that, alter the `composer.json` file
+or simply add your preferred theme. You can set pretty much every theme that lives in the
+wp.org repository. This makes it easy to test compatibility in case of bug reports and 
+is quite convenient.
+
 ## License
 
 MIT - it's as easy as that
