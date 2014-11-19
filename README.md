@@ -1,5 +1,10 @@
 # AstroFields Development box
 
+[![Latest Stable Version](https://poser.pugx.org/wecodemore/astrofields-devstack/v/stable.svg)](https://packagist.org/packages/wecodemore/astrofields-devstack)
+[![Total Downloads](https://poser.pugx.org/wecodemore/astrofields-devstack/downloads.svg)](https://packagist.org/packages/wecodemore/astrofields-devstack)
+[![Latest Unstable Version](https://poser.pugx.org/wecodemore/astrofields-devstack/v/unstable.svg)](https://packagist.org/packages/wecodemore/astrofields-devstack)
+[![License](https://poser.pugx.org/wecodemore/astrofields-devstack/license.svg)](https://packagist.org/packages/wecodemore/astrofields-devstack)
+
 The basic development box for the AstroFields libraries and plugins.
 
 ## Requirements
