@@ -21,16 +21,6 @@
 	"support"     : {
 		"issues" : "https://github.com/AstroFields/DevStack/issues"
 	},
-	"repositories": [
-		{
-			"type": "composer",
-			"url":  "http://wpackagist.org"
-		},
-		{
-			"type": "composer",
-			"url":  "http://rarst.net"
-		}
-	],
 	"config":       {
 		"bin-dir":    "bin",
 		"vendor-dir": "wp-content/vendor"
@@ -44,6 +34,7 @@
 		"psy/psysh":                          "*",
 		"wecodemore/wp-cli-composer":         "*",
 		"wecodemore/wp-composer-config":      "*",
+		"manovotny/wptest":                   "*",
 		"wecodemore/astrofields-core":        "*",
 		"wecodemore/astrofields-standards":   "*",
 		"wecodemore/astrofields-security":    "*",
@@ -64,13 +55,31 @@
 		"wpackagist-plugin/theme-check":                "*",
 		"wpackagist-plugin/user-switching":             "*",
 		"wpackagist-plugin/wcm-user-language-switcher": "*",
+		"wecodemore/current-admin-info":                "*",
 		"wecodemore/astroexamples-usermeta":            "*",
 		"wecodemore/astroexamples-metabox":             "*",
 		"wecodemore/astroexamples-settings-section":    "*",
 		"wecodemore/astroexamples-comments":            "*"
 	},
 	"minimum-stability": "dev",
+	"repositories": [
+		{
+			"type": "composer",
+			"url":  "http://wpackagist.org"
+		},
+		{
+			"type": "composer",
+			"url":  "http://rarst.net"
+		},
+		{
+			"type": "vcs",
+			"url":  "https://github.com/manovotny/wptest.git"
+		}
+	],
 	"scripts":      {
+		"wp-test" : [
+			"cd wp-content/vendor/manovotny/wptest/ && wp import wptest.xml --authors=create --path=../../../../wp"
+		],
 		"wp-config": [
 			"WCM\\WPComposerConfig\\WPConfigCommand::postPackageInstall"
 		],
