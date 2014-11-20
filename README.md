@@ -1,10 +1,12 @@
 # AstroFields Development box
 
-[![GitTip to support us](https://img.shields.io/gratipay/wecodemore.svg)](//gratipay.com/wecodemore/)
-[![Latest Stable Version](https://poser.pugx.org/wecodemore/astrofields-devstack/v/stable.svg)](//packagist.org/packages/wecodemore/astrofields-devstack)
-[![Total Downloads](https://poser.pugx.org/wecodemore/astrofields-devstack/downloads.svg)](//packagist.org/packages/wecodemore/astrofields-devstack)
-[![Latest Unstable Version](https://poser.pugx.org/wecodemore/astrofields-devstack/v/unstable.svg)](//packagist.org/packages/wecodemore/astrofields-devstack)
-[![License](https://poser.pugx.org/wecodemore/astrofields-devstack/license.svg)](//packagist.org/packages/wecodemore/astrofields-devstack)
+
+[![GitTip to support us](https://img.shields.io/gratipay/wecodemore.svg?style=flat-square)](//gratipay.com/wecodemore/)
+[![Source Code](http://img.shields.io/badge/source-astrofields-devstack/plates-blue.svg?style=flat-square)](//github.com/AstroFields/DevStack)
+[![Author](http://img.shields.io/badge/twitter-@astrofields-blue.svg?style=flat-square)](//twitter.com/astrofields)
+[![Total Downloads](https://img.shields.io/packagist/dt/astrofields/devstack.svg?style=flat-square)](//packagist.org/packages/wecodemore/astrofields-devstack)
+[![Latest Version](https://img.shields.io/github/release/astrofields/devstack.svg?style=flat-square)](//packagist.org/packages/wecodemore/astrofields-devstack)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](//packagist.org/packages/wecodemore/astrofields-devstack)
 
 The basic development box for the AstroFields libraries and plugins.
 
@@ -48,7 +50,7 @@ _omit_ setting it and therefore fall back to WordPress internal default.
 The default theme is TwentyThirteen (because I think TwentyFourteen is quite ugly). It is
 installed as `wpackagist-theme` via Composer. To change that, alter the `composer.json` file
 or simply add your preferred theme. You can set pretty much every theme that lives in the
-wp.org repository. This makes it easy to test compatibility in case of bug reports and 
+wp.org repository. This makes it easy to test compatibility in case of bug reports and
 is quite convenient.
 
 ## License
