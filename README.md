@@ -2,9 +2,9 @@
 
 
 [![GitTip to support us](https://img.shields.io/gratipay/wecodemore.svg?style=flat-square)](//gratipay.com/wecodemore/)
+[![Latest Version](https://img.shields.io/github/release/astrofields/devstack.svg?style=flat-square)](//packagist.org/packages/wecodemore/astrofields-devstack)
 [![Source Code](http://img.shields.io/badge/source-astrofields/devstack-blue.svg?style=flat-square)](//github.com/AstroFields/DevStack)
 [![Total Downloads](https://img.shields.io/packagist/dt/wecodemore/astrofields-devstack.svg?style=flat-square)](//packagist.org/packages/wecodemore/astrofields-devstack)
-[![Latest Version](https://img.shields.io/github/release/astrofields/devstack.svg?style=flat-square)](//packagist.org/packages/wecodemore/astrofields-devstack)
 
 [![Twitter](http://img.shields.io/badge/t-@AstroNotes-blue.svg?style=flat-square)](//twitter.com/AstroNotes)
 [![Google+](http://img.shields.io/badge/g+-@AstroFields-red.svg?style=flat-square)](//plus.google.com/b/113053043508408123948/113053043508408123948/posts)
