@@ -2,7 +2,7 @@
 
 
 [![GitTip to support us](https://img.shields.io/gratipay/wecodemore.svg?style=flat-square)](//gratipay.com/wecodemore/)
-[![Latest Version](https://img.shields.io/github/release/astrofields/devstack.svg?style=flat-square)](//packagist.org/packages/wecodemore/astrofields-devstack)
+[![Latest Version](https://img.shields.io/github/tag/AstroFields/DevStack.svg?style=flat-square)](//github.com/astrofields/devstack/releases)
 [![Source Code](http://img.shields.io/badge/source-astrofields/devstack-blue.svg?style=flat-square)](//github.com/AstroFields/DevStack)
 [![Total Downloads](https://img.shields.io/packagist/dt/wecodemore/astrofields-devstack.svg?style=flat-square)](//packagist.org/packages/wecodemore/astrofields-devstack)
 
