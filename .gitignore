@@ -10,7 +10,7 @@
 /bin/
 
 # Those are custom anyway
-!wp-content/mu-plugins/
+!/wp-content/mu-plugins/*.php
 
 # Composer lock not necessary, let everyone pull latest
 composer.lock
