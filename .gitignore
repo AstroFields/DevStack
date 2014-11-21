@@ -9,6 +9,9 @@
 /wp-content/
 /bin/
 
+# Those are custom anyway
+!/wp-content/mu-plugins/
+
 # Composer lock not necessary, let everyone pull latest
 composer.lock
 
