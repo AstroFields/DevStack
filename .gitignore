@@ -6,14 +6,16 @@
 /default/
 /html/
 /wp/
+/bin/
+
 # Ignore all three, so the do-not-ignore for mu-plugins triggers
 # and doesn't force us to unignore any of its parent dirs.
 /wp-content/plugins/
 /wp-content/vendor/
 /wp-content/themes/
-/bin/
-
-# Those are custom anyway
+# Log files, Composer autoloader, etc.
+/wp-content/*.*
+# Those are custom anyway, so do not ignore them
 !wp-content/mu-plugins/*.php
 
 # Composer lock not necessary, let everyone pull latest
