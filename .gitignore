@@ -8,11 +8,17 @@
 /wp
 /bin
 
+*.log
+/log
+/wp-content/debug.log
+
 # Ignore all three, so the do-not-ignore for mu-plugins triggers
 # and doesn't force us to unignore any of its parent dirs.
 /wp-content/plugins
 /wp-content/vendor
 /wp-content/themes
+# Ignore custom uploads dir
+/wp-content/uploads
 # Log files, Composer autoloader, etc.
 /wp-content/*.*
 # Those are custom anyway, so do not ignore them

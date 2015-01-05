@@ -4,7 +4,7 @@ vagrantfile-local:
         box: puphpet/ubuntu1404-x64
         box_url: puphpet/ubuntu1404-x64
         hostname: ''
-        memory: '512'
+        memory: '256'
         cpus: '1'
         chosen_provider: virtualbox
         network:
@@ -98,7 +98,7 @@ apache:
             servername: astro.dev
             serveraliases:
                 - www.astro.dev
-            docroot: /var/www/wp
+            docroot: /var/www
             port: '80'
             setenv:
                 - 'APP_ENV dev'
@@ -126,7 +126,7 @@ nginx:
             server_name: astro.dev
             server_aliases:
                 - www.astro.dev
-            www_root: /var/www/wp
+            www_root: /var/www
             listen_port: '80'
             location: \.php$
             index_files:

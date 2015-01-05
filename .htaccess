@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www.)?astro.dev
+RewriteRule ^(/wp/)?$ / [L,R=301]
